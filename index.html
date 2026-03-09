@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Georgii Tkachev — Product Designer</title>
+    <meta
+      name="description"
+      content="Портфолио продуктового дизайнера: кейсы, процессы, результаты и контакты."
+    />
+    <meta property="og:title" content="Georgii Tkachev — Product Designer" />
+    <meta
+      property="og:description"
+      content="Портфолио продуктового дизайнера: кейсы, процессы, результаты и контакты."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/images/og-cover.webp" />
+    <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container header__inner">
+        <a class="logo" href="#hero">GT</a>
+
+        <nav class="header__nav desktop-nav" aria-label="Основная навигация">
+          <a href="#cases">Кейсы</a>
+          <a href="#about">Обо мне</a>
+          <a href="#contact">Контакты</a>
+        </nav>
+
+        <div class="header__actions">
+          <a class="header__link" href="mailto:hello@example.com">Email</a>
+          <button
+            class="menu-button"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            Меню
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+      <div class="mobile-menu__inner">
+        <div class="mobile-menu__top">
+          <span class="mobile-menu__label">Навигация</span>
+          <button class="mobile-menu__close" type="button" aria-label="Закрыть меню">
+            ✕
+          </button>
+        </div>
+
+        <nav class="mobile-menu__nav" aria-label="Мобильная навигация">
+          <a href="#cases">Кейсы</a>
+          <a href="#about">Обо мне</a>
+          <a href="#contact">Контакты</a>
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+        </nav>
+      </div>
+    </div>
+
+    <main>
+      <section class="hero" id="hero">
+        <div class="container hero__grid">
+          <div class="hero__content reveal">
+            <p class="eyebrow">Product Designer • Portfolio</p>
+            <h1>
+              Проектирую цифровые продукты,
+              <span>которые понятны пользователю и полезны бизнесу.</span>
+            </h1>
+            <p class="hero__description">
+              Продуктовый дизайнер с фокусом на fintech, сложные пользовательские сценарии,
+              дизайн-системы и измеримый результат.
+            </p>
+            <div class="hero__actions">
+              <a class="button button--primary" href="#cases">Смотреть кейсы</a>
+              <a class="button button--secondary" href="#contact">Связаться</a>
+            </div>
+            <ul class="hero__meta">
+              <li>Fintech</li>
+              <li>Mobile & Web</li>
+              <li>Design Systems</li>
+            </ul>
+          </div>
+
+          <div class="hero__visual reveal reveal-delay">
+            <img
+              src="assets/images/hero-preview.webp"
+              alt="Превью портфолио"
+              width="960"
+              height="720"
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="cases section" id="cases">
+        <div class="container">
+          <div class="section-head reveal">
+            <p class="eyebrow">Selected cases</p>
+            <h2>Кейсы</h2>
+            <p>
+              Несколько проектов, где дизайн помог улучшить опыт, упростить сценарии и
+              усилить продуктовые метрики.
+            </p>
+          </div>
+
+          <div class="cases-grid" id="cases-grid"></div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="container about__grid">
+          <div class="reveal">
+            <p class="eyebrow">About</p>
+            <h2>Обо мне</h2>
+          </div>
+
+          <div class="about__content reveal reveal-delay">
+            <p>
+              Я продуктовый дизайнер, который работает на стыке UX, UI и продуктового мышления.
+              Люблю наводить порядок в сложных системах, находить сильные UX-концепции и
+              доводить решения до релиза.
+            </p>
+            <p>
+              Сильные стороны: финтех, внутренние платформы, CJM, UX-аудит, дизайн-системы,
+              гипотезы и визуальная чистота без декоративного шума.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="container contact__box reveal">
+          <p class="eyebrow">Contact</p>
+          <h2>Открыт к сильным продуктовым задачам</h2>
+          <p>
+            Для сотрудничества, интервью или обсуждения проекта — напишите любым удобным способом.
+          </p>
+          <div class="contact__actions">
+            <a class="button button--primary" href="mailto:hello@example.com">hello@example.com</a>
+            <a class="button button--secondary" href="https://t.me/username" target="_blank" rel="noreferrer">Telegram</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <p>© 2026 Georgii Tkachev</p>
+        <div class="footer__links">
+          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://dribbble.com" target="_blank" rel="noreferrer">Dribbble</a>
+          <a href="mailto:hello@example.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
